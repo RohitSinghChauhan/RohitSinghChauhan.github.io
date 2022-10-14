@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@chakra-ui/react";
+import About from "./components/About";
+import Homepage from "./components/Homepage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>My Deployed App</h1>
-      <p>With the help of Github</p>
-    </div>
+    <Box>
+      <Navbar />
+      <Homepage />
+      <About />
+    </Box>
   );
 }
 
