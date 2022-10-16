@@ -3,18 +3,18 @@ import { Box, Button, Flex, Image, Stack, Text, Link } from "@chakra-ui/react";
 
 const Hompage = () => {
     return <Box id='home_section'>
-        <Box w='70vw' m='auto'>
-            <Flex w='100%' h='90vh' direction='column' justifyContent='center' alignItems='center'>
-                <Flex w='100%' direction={{ lg: 'row', md: 'column', sm: 'column' }} justifyContent='space-between' alignItems='center'>
+        <Box w={{ lg: '70vw', md: '90vw', sm: '80vw' }} m='auto'>
+            <Flex w='100%' h={{ lg: '90vh', md: '60vh', sm: '82vh' }} direction='column' justifyContent='center' alignItems='center'>
+                <Flex w='100%' direction={{ lg: 'row', md: 'row', sm: 'column' }} justifyContent='space-between' alignItems='center'>
                     <Flex gap={{ lg: '12', md: '7', sm: '6' }} direction='column'>
-                        <Stack spacing={-2}>
+                        <Stack spacing={0}>
                             <Flex alignItems='center' gap={1}><Text fontFamily='monospace' fontSize='1.2rem' color='blackAlpha.800'>Hello</Text><Image w='2rem' src='https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif' /><Text fontFamily='monospace' fontSize='1.2rem' color='blackAlpha.800'>I'm</Text></Flex>
                             <Text fontSize='4rem' as='b' color='rgb(64, 112, 244)' >Rohit Singh</Text>
                             <Text fontSize='1.8rem' as='b' color='blackAlpha.800' letterSpacing={1}>Full Stack Web Developer</Text>
                         </Stack>
 
                         <Stack spacing={{ lg: '5', md: '2', sm: '2' }}>
-                            <Button borderRadius='none' bgColor='#FBC740' colorScheme='yellow' h='6vh' w={{ lg: '9vw', md: '14vw', sm: '15vw' }} fontSize='1.5rem' color='white'>
+                            <Button borderRadius='none' bgColor='#FBC740' colorScheme='yellow' h='6vh' w={{ lg: '9vw', md: '18vw', sm: '15vw' }} fontSize='1.5rem' color='white'>
                                 <Link href='https://drive.google.com/file/d/1FzHQpwXtJu0dbpY5eq5GKNO-yOY63q91/view?usp=sharing'>Resume
                                 </Link></Button>
                             <Flex gap={4} alignItems='center'>
