@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
 import ReactTooltip from 'react-tooltip';
+import { Box } from '@chakra-ui/react'
 
 const selectLastHalfYear = contributions => {
     const currentYear = new Date().getFullYear();
@@ -21,17 +22,17 @@ const selectLastHalfYear = contributions => {
 
 const Calendar = () => {
     return (
-        <div>
+        <Box>
             <GitHubCalendar
                 style={{ margin: 'auto' }}
                 username="rohitsinghchauhan"
                 transformData={selectLastHalfYear}
                 blockSize={20}
-                fontSize={18}
+                fontSize={15}
             >
                 <ReactTooltip delayShow={20} html />
             </GitHubCalendar>
-        </div>
+        </Box>
     )
 }
 
