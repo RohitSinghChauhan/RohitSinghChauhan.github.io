@@ -19,11 +19,11 @@ const Projects = () => {
                         <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>Made a clone of the famous luxury fashion and designer shopping e-commerce website.</Text>
                         <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | HTML | CSS | Chakra-UI</Text>
                         <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
-                            <Link target='_blank' href='https://mytheresabyrohit.netlify.app/'>
+                            <Link target='_blank' href='https://mytheresa-clone-zeta.vercel.app/'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
                                     Website</Button>
                             </Link>
-                            <Link target='_blank' href='https://github.com/RohitSinghChauhan/unknown-lumber-9954'>
+                            <Link target='_blank' href='https://github.com/RohitSinghChauhan/Mytheresa-Clone'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>Github</Button>
                             </Link>
                         </Flex>
