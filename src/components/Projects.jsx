@@ -19,11 +19,11 @@ const Projects = () => {
                         <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>Made a clone of the famous luxury fashion and designer shopping e-commerce website.</Text>
                         <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | HTML | CSS | Chakra-UI</Text>
                         <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
-                            <Link target='_blank' href='https://mytheresa-clone-zeta.vercel.app/'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://mytheresa-clone-zeta.vercel.app/'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
                                     Website</Button>
                             </Link>
-                            <Link target='_blank' href='https://github.com/RohitSinghChauhan/Mytheresa-Clone'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://github.com/RohitSinghChauhan/Mytheresa-Clone'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>Github</Button>
                             </Link>
                         </Flex>
@@ -40,11 +40,11 @@ const Projects = () => {
                         <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>HubSpot is a Cloud-Based CRM, HubSpot is a Software platform which is designed to help company market and sell more effectively.</Text>
                         <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | NodeJs | Express | MongoDB</Text>
                         <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
-                            <Link target='_blank' href='https://animated-narwhal-cecc2b.netlify.app/'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://hubspot-alpha.vercel.app/'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
                                     Website</Button>
                             </Link>
-                            <Link target='_blank' href='https://github.com/Guruprasad3n/humane-shelf-7123'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://github.com/RohitSinghChauhan/HubSpot.com-Clone'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>Github</Button>
                             </Link>
                         </Flex>
@@ -61,11 +61,11 @@ const Projects = () => {
                         <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>Nature’s Basket is India’s pioneering food destination present through physical retail stores, online portal and a mobile application.</Text>
                         <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- HTML | CSS | JavaScript | DOM</Text>
                         <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
-                            <Link target='_blank' href='https://nature-sbasket.netlify.app/'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://nature-sbasket.netlify.app/'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
                                     Website</Button>
                             </Link>
-                            <Link target='_blank' href='https://github.com/Mufadal03/Nature-sBasket-Clone'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://github.com/Mufadal03/Nature-sBasket-Clone'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>Github</Button>
                             </Link>
                         </Flex>
