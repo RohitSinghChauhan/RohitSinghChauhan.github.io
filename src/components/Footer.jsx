@@ -3,7 +3,7 @@ import { Box, Flex, Link, Image } from '@chakra-ui/react';
 
 const Footer = () => {
     return (
-        <Box id='contact_section' mt='6rem' bgColor='blackAlpha.900'>
+        <Box id='contact_section' mt={['3rem', '5rem', '6rem', '6rem']} bgColor='blackAlpha.900'>
             <Flex h={['20vh', '24vh', '27vh', '27vh']} m='auto' w='70%' justifyContent='center' alignItems='center'>
                 <Flex gap={{ base: '7', lg: '6', md: '8', sm: '20' }} m={{ base: '0', lg: "0", md: "0", sm: "auto" }} alignItems='center'>
                     <Link target='_blank' href='https://www.linkedin.com/in/rohit-singh-786b51193'>
