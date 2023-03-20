@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <Box border='1px solid red' id='projects_section' mt={{ base: '10rem', lg: '8rem', md: '2rem', sm: '1rem' }} w={{ lg: '70vw', md: '90vw', sm: '99vw' }} m='auto'>
+        <Box id='projects_section' mt={{ base: '10rem', lg: '8rem', md: '2rem', sm: '1rem' }} w={{ lg: '70vw', md: '90vw', sm: '99vw' }} m='auto'>
             <Flex w='100%' direction='column' justifyContent='center' alignItems='center'>
                 <Center>
                     <Text as='b' fontSize={{ base: '1.3rem', lg: '1.8rem', md: '1.7rem', sm: '1.6rem' }} color='rgb(64, 112, 244)'>Projects</Text>
