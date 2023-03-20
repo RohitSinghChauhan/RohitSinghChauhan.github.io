@@ -4,7 +4,7 @@ import React from 'react'
 const Homepage = () => {
     return (
         <Box w={{ base: '100%', lg: '100%', md: '100%', sm: '100%' }}>
-            <Flex h={{ base: '75vh', lg: '100vh', md: '70vh', sm: '110vh' }} w='100%' direction={{ base: 'column', lg: 'row', md: 'row', sm: 'column' }} justifyContent={{ base: 'space-around', lg: 'space-evenly', md: 'space-evenly', sm: 'space-evenly' }} alignItems='center'>
+            <Flex h={{ base: '87vh', lg: '100vh', md: '70vh', sm: '110vh' }} w='100%' direction={{ base: 'column', lg: 'row', md: 'row', sm: 'column' }} justifyContent={{ base: 'space-around', lg: 'space-evenly', md: 'space-evenly', sm: 'space-evenly' }} alignItems='center'>
 
                 <Flex gap={{ base: '5', lg: '6', md: '6', sm: '6' }} direction='column' >
                     <Stack spacing={2}>

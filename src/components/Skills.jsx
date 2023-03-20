@@ -3,8 +3,8 @@ import { Box, Image, Flex, Text, Center } from '@chakra-ui/react';
 
 const Skills = () => {
     return (
-        <Box id='skills_section' w={{ base: '95%', lg: '94%', md: '90%', sm: '95%' }} m='auto' >
-            <Flex w='100%' h={{ base: '40vh', lg: '43vh', md: '30vh', sm: '40vh' }} direction='column' justifyContent={['flex-start', 'center', 'center', 'center']} alignItems='center'>
+        <Box id='skills_section' w={{ base: '95%', lg: '94%', md: '90%', sm: '95%' }} m='auto' mb={['2rem', '0', '0', '0']} >
+            <Flex w='100%' h={{ base: '30vh', lg: '43vh', md: '30vh', sm: '40vh' }} direction='column' justifyContent={['center', 'center', 'center', 'center']} alignItems='center'>
                 <Center>
                     <Text as='b' fontSize={{ base: '1.3rem', lg: '1.8rem', md: '1.7rem', sm: '1.6rem' }} color='rgb(64, 112, 244)'>Skills</Text>
                 </Center>
