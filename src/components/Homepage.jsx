@@ -30,7 +30,7 @@ const Homepage = () => {
                 </Flex >
 
                 <Box display='flex' justifyContent='center' alignItems='center'>
-                    <Image w={{ base: '16rem', lg: '25rem', md: '23rem', sm: '21rem' }} src='https://i.postimg.cc/Cx51GtSv/IMG-20230115-115848-1.jpg' />
+                    <Image w={{ base: '16rem', lg: '25rem', md: '23rem', sm: '21rem' }} src='https://i.postimg.cc/L8jVGQ1j/profile-pic.jpg' />
                 </Box>
 
             </Flex >
