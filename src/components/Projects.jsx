@@ -17,7 +17,7 @@ const Projects = () => {
                     <Flex justifyContent='space-around' h={['36vh', '46vh', '50vh', '50vh']} w={['80%', '80%', '50%', '50%']} direction='column'>
                         <Text as='b' fontSize={{ base: '1.4rem', lg: '1.8rem', md: '1rem', sm: '1.4rem' }} > Mytheresa</Text>
                         <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>Made a clone of the famous luxury fashion and designer shopping e-commerce website.</Text>
-                        <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | HTML | CSS | Chakra-UI</Text>
+                        <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | Node Js | MongoDB | ExpressJs | Chakra-UI</Text>
                         <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
                             <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://mytheresa-clone-zeta.vercel.app/'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
@@ -38,7 +38,7 @@ const Projects = () => {
                     <Flex justifyContent='space-around' h={['36vh', '46vh', '50vh', '50vh']} w={['80%', '80%', '50%', '50%']} direction='column'>
                         <Text as='b' fontSize={{ base: '1.4rem', lg: '1.8rem', md: '1rem', sm: '1.4rem' }} >Hubspot</Text>
                         <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>HubSpot is a Cloud-Based CRM, HubSpot is a Software platform which is designed to help company market and sell more effectively.</Text>
-                        <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | NodeJs | Express | MongoDB</Text>
+                        <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | NodeJs | Express Js | MongoDB</Text>
                         <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
                             <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://hubspot-alpha.vercel.app/'>
                                 <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
