@@ -75,6 +75,28 @@ const Projects = () => {
 
                 <Flex w={['100%', '80%', '80%', '80%']} direction={['column', 'column', 'row', 'row']} mt='1.3rem' justifyContent='center' alignItems='center' boxShadow='rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px'>
                     <Flex h={['auto', '50vh', '50vh', '50vh']} w={['100%', '100%', '50%', '50%']} justifyContent={['flex-start', 'center', 'center', 'center']} alignItems='center' direction='column'>
+                        <Image w='90%' src='https://user-images.githubusercontent.com/101378760/236643081-944721f9-992e-446e-95db-8f8b0210dda9.png' />
+                    </Flex>
+
+                    <Flex justifyContent='space-around' h={['36vh', '46vh', '50vh', '50vh']} w={['80%', '80%', '50%', '50%']} direction='column'>
+                        <Text as='b' fontSize={{ base: '1.4rem', lg: '1.8rem', md: '1rem', sm: '1.4rem' }}>Online Recipe Book</Text>
+                        <Text fontSize={{ base: '.9rem', lg: '1.2rem', md: '1.2rem', sm: '1rem' }}>
+                            Recipe book is a handy online recipe catalogue, with famous international recipes.</Text>
+                        <Text as='b' fontSize={{ base: '0.9rem', lg: '1.1rem', md: '1.1rem', sm: '1rem' }}>Tech stack- React | Redux | NodeJs | | MongoDB | ExpressJs | Chakra-UI</Text>
+                        <Flex w={['68%', '45%', '63%', '63%']} justifyContent='space-between' alignItems='center'>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://recipe-book-mauve.vercel.app/'>
+                                <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>
+                                    Website</Button>
+                            </Link>
+                            <Link style={{ 'textDecoration': 'none' }} target='_blank' href='https://github.com/RohitSinghChauhan/RecipeBook-App'>
+                                <Button w={['4rem', '4.5rem', '6rem', '7rem']} fontSize={['0.8rem', '0.9rem', '1rem', '1rem']} bgColor='rgb(64, 112, 244)' colorScheme='blue' color='white'>Github</Button>
+                            </Link>
+                        </Flex>
+                    </Flex>
+                </Flex>
+
+                <Flex w={['100%', '80%', '80%', '80%']} direction={['column', 'column', 'row', 'row']} mt='1.3rem' justifyContent='center' alignItems='center' boxShadow='rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px'>
+                    <Flex h={['auto', '50vh', '50vh', '50vh']} w={['100%', '100%', '50%', '50%']} justifyContent={['flex-start', 'center', 'center', 'center']} alignItems='center' direction='column'>
                         <Image w='90%' src='https://i.postimg.cc/767BYptn/Screenshot-231.png' />
                     </Flex>
 
