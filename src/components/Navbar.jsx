@@ -21,7 +21,7 @@ export default function Navbar() {
                             <Link target='_blank' href='https://drive.google.com/file/d/1FzHQpwXtJu0dbpY5eq5GKNO-yOY63q91/view?usp=share_link'>
                                 Resume</Link>
                         </Text>
-                        <Tooltip hasArrow label='Download resume' bg='gray.300' color='black'>
+                        <Tooltip hasArrow label='Download resume' display={['none', 'none', 'none', 'inline-block']} bg='gray.300' color='black'>
                             <Link href="https://drive.google.com/u/0/uc?id=1FzHQpwXtJu0dbpY5eq5GKNO-yOY63q91&export=download" download>
                                 <HiOutlineDownload size='1.3rem' color='rgb(64, 112, 244)' />
                             </Link>

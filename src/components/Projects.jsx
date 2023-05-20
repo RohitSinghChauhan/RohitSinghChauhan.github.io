@@ -54,7 +54,7 @@ const Projects = () => {
 
                 <Flex w={['100%', '80%', '80%', '80%']} direction={['column', 'column', 'row', 'row']} mt='1.3rem' justifyContent='center' alignItems='center' boxShadow='rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px'>
                     <Flex h={['auto', '50vh', '50vh', '50vh']} w={['100%', '100%', '50%', '50%']} justifyContent={['flex-start', 'center', 'center', 'center']} alignItems='center' direction='column'>
-                        <Image w='90%' src='https://github.com/Guruprasad3n/humane-shelf-7123/raw/main/Frontend/hubspot/src/Assets/Home.png' />
+                        <Image w='90%' src='https://camo.githubusercontent.com/3074933f6d16c0127aef5185fe663a4c715437c1ad3fdd66293d7e61dbf528c4/68747470733a2f2f692e6962622e636f2f524363443459712f696d6167652e706e67' />
                     </Flex>
 
                     <Flex justifyContent='space-around' h={['36vh', '46vh', '50vh', '50vh']} w={['80%', '80%', '50%', '50%']} direction='column'>
